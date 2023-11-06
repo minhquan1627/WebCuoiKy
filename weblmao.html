@@ -3,79 +3,205 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>web</title>
-    <link rel="stylesheet" href="web_cuoi_ky.css">
+    <title>Web</title>
+    <link rel="stylesheet" href="web.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
 </head>
 <body>
-    <header class="header">
-        
-        <a href="#nut_home" class="Logo">Lang<span>La</span></a>
-        
-        <nav class="navbar">
-            <a href="#nut_home">Home</a>
-            <a href="#nut_Member">Members</a>
-            <a href="#">About</a>
-            <a href="#">Review</a>
+    <header>
+        <a href="#Home" class="logo"><img src="./hình/Logo1.png" alt=""></a>
+        <nav class="chu_header">
+            <a href="#Home">HOME</a>
+            <a href="#noi_dung">HISTORY</a>
+            <a href="#toi_thanhvien">MEMBERS</a>
+            <a href="#HOATDONG">ACTIVATE</a>
         </nav>
-        
-        <button class="btn">Login</button>
+        <!-- <div class="timkiem">
+            <input type="text" class="timkiem_bang">
+            <button class="timkiem_chu"><i class='bx bx-search' ></i></button>
+        </div> -->
+        <a href="./login.html" class="nut">LOGIN</a>
     </header>
-    <than id="nut_home" class="home-section">
-        <div class="text-content">
-            <h2><img src="./hình/logo_cua_team_lang_la-02-01.png" alt="" id="Home">Làng<span>Lá</span></h2>
-            <p>Nhóm làm về dev game và các mảng về websites</p>
+    <than class="home-section" id="Home">
+        <img src="./hình/Logo1.png" alt="" class="image" >
+        <div class="thanh"></div>
+        <div class="text_Home_section">
+            <p class="chu_dau">CÂU LẠC BỘ</p>
+            <h2>TECH<span>CLUB</span></h2>
+            <p>Chào mừng đến với câu lạc bộ của</p>
+            <p>những người yêu công nghệ</p>
         </div>
-        <video id="player" controls autoplay>
-            <source src="./hình/video_lang_la.mp4">
-        </video>
-        
     </than>
-    <thanhvien id="nut_Member" class="about-section">
-        <div class="text-head">
-            <h2>MEM<span>BER</span></h2>
+    <than_giua class="home-section-1" id="noi_dung">
+        <div class="text_gioi_thieu" >
+            <h1>LỊCH <span>SỬ</span></h1>
+            <p>từ một cậu IT từng hack thành công hệ thống</p>
+            <p>ngân hàng của quốc gia khác</p>
+            <p>Rồi trở thành một sinh viên ưu tú</p>
         </div>
-            <div class="thanhvien-details">
-                <div class="thanhvien-image">
-                    <div class="image-1">
-                        <img src="hình/hinhtoi.jpg" alt="" >
-                        <div class="text-content-1">
-                            <span>Minh Quân</span>
-                            <p >Age: 19</p>
-                            <p class="ptext">Thích uống cà phê, Thích nghệ thuật, hay mơ mộng</p>
-                        </div>
+        <div class="hinh_anh_1">
+            <img src="./hình/lien_minh.jpg" alt="">
+        </div>
+    </than_giua>
+    <than_giua.1 class="home-section-1">
+        <div class="hinh_anh_2">
+            <img src="./hình/lien_minh.jpg" alt="">
+        </div>
+        <div class="text_gioi_thieu-1"  id="noi_dung1">
+            <h1>HÌNH <span>THÀNH</span></h1>
+            <p>Câu lạc bộ được chàng trai thành lập</p>
+            <p>nhằm chia sẻ kiến thức và</p>
+            <p>kinh nghiệm cho tất cả các bạn sinh viên khác</p>
+        </div>
+    </than_giua.1>
+    <thanh_vien>
+        <div class="text_dau" id="toi_thanhvien">
+            <h1>THÀNH<span>VIÊN</span></h1>
+            <h2>CHỦ<span>CHỐT</span></h2>
+        </div>
+        <div class="home-section-thanh-vien" id="thanhvien">
+            <div class="padding">
+                <div class="khung_ben_trai"> 
+                    <div class="hinh_anhthanhvien_T">
+                        <img src="./hình/Logo1.png" alt="" class="img">
                     </div>
-                </div>
-                <div class="thanhvien-image thanhvien-image-2">
-                    <div class="image-1">
-                        <img src="./hình/hinhdai.jpg" alt="" style="width: 80%;">
-                        <div class="text-content-1">
-                            <span>Phước Đại</span>
-                            <p >Age: 21</p>
-                            <p class="ptext">Thích uống cà phê, Thích nghệ thuật, hay mơ mộng</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="thanhvien-image">
-                    <div class="image-1">
-                        <img src="./hình/hinhvan.jpg" alt="" style="width: 80%;">
-                        <div class="text-content-1">
-                            <span>Ngọc Văn</span>
-                            <p >Age: 19</p>
-                            <p class="ptext">Thích uống cà phê, Thích nghệ thuật, hay mơ mộng</p>
-                        </div>
+                    <div class="text_thanhvien_T">
+                        <h1>Nguyễn Phước Đại</h1>
+                        <p>CHỦ NHIỆM CÂU LẠC BỘ</p>
                     </div>
                 </div>
             </div>
-    </thanhvien>
-    <ket>
-        <div class="dongcuoi-text">
-            <pre>Trang web của Làng Lá.All right resersed.</pre>
-            <br>
-                <a href="#" class="dongcuoi-text">Facebook</a>
-                <a href="#" class="dongcuoi-text">instagram</a>
-                <a href="#" class="dongcuoi-text">twitter</a>
         </div>
-    </ket>
+        <div class="home-section-thanh-vien" id="thanhvien">
+            <div class="space"></div>
+            <div class="padding">
+                <div class="khung_ben_phai" >
+                    <div class="text_thanhvien_P">
+                        <h1>Nguyễn Ngọc Văn</h1>
+                        <p>TRƯỞNG BAN ĐỐI NGOẠI</p>
+                    </div>
+                    <div class="hinh_anhthanhvien_P">
+                        <img src="./hình/Logo1.png" alt="" class="img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="home-section-thanh-vien" id="thanhvien">
+            <div class="padding">
+                <div class="khung_ben_trai">
+                    <div class="hinh_anhthanhvien_T">
+                        <img src="./hình/Logo1.png" alt="" class="img">
+                    </div>
+                    <div class="text_thanhvien_T">
+                        <h1>Nguyễn Ngọc Minh Quân</h1>
+                        <p>TRƯỞNG BAN WEB</p>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </thanh_vien>
+    <hoat_dong >
+        <div class="home-section_hoatdong" id="HOATDONG">
+            <div class="text_dau1">
+                <h1>HOẠT ĐỘNG</h1>
+                <h2>SÔI ĐỘNG VÀ HẤP DẪN</h2>
+            </div>
+                <div class="khung_video">
+                    <video autoplay muted loop class="Video_nen">
+                        <source src="./hình/10000000_639289254979960_168497545478867298_n.mp4" type="video/mp4">
+                    </video>
+                </div>
+        </div>
+        <div class="gach_ngang" ></div>
+        <div class="home-section_hoatdong">
+            
+            <div class="khung_video2">
+                <video autoplay muted loop class="Video_nen">
+                    <source src="./hình/10000000_639289254979960_168497545478867298_n.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="text_dau2">
+                <h1>SÁNG TẠO</h1>
+                <h2>VUI VẺ VÀ THÔNG MINH</h2>
+            </div>
+        </div>
+    </hoat_dong>
+    <FACEBOOK class="facebook">
+        <div class="text_dau_facebook">
+            <h1>NẾU BẠN CÓ HỨNG THÚ</h1>
+            <a href="https://www.facebook.com/vlutech" class="a_facebook">
+                <span></span><span></span><span></span><span></span>
+                <p>FACEBOOK</p>
+            </a>
+            <p style="margin-top: 2% ;"></p>
+            <icon class="icon" >
+                <a href="https://www.facebook.com/vlutech" class="icon1"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100092493644972" class="icon2"><i class='bx bxl-github'></i></a>
+                <a href="" class="icon3"><i class='bx bxl-discord-alt'></i></button></a>
+            </icon>
+            
+        </div>
+        
+    </FACEBOOK>
+    <script>
+        var huhu = document.querySelector(".image")
+        setTimeout(() =>{
+            huhu.style.opacity = 1;
+        },3000)
+        var hihi =document.querySelector(".text_Home_section")
+        setTimeout(()=>{
+            hihi.style.opacity = 1;
+        },4700)
+        var kk = document.querySelector(".thanh")
+        setTimeout(()=>{
+            kk.style.opacity = 1;
+        },5000)
+        var hinh_anh_lichsu = document.querySelector(".hinh_anh_1")
+        var noi_dung_lichsu = document.querySelector(".text_gioi_thieu")
+        var toi_cho = document.getElementById("noi_dung")
+        hien_benphai(toi_cho,noi_dung_lichsu)
+        hien_benphai(toi_cho,hinh_anh_lichsu)
+
+        var hinh_anh_lichsu1 = document.querySelector(".hinh_anh_2")
+        var noi_dung_lichsu1 = document.querySelector(".text_gioi_thieu-1")
+        var toi_cho1 = document.getElementById("noi_dung1")
+        hien_bentrai(toi_cho1,hinh_anh_lichsu1)
+        hien_bentrai(toi_cho1,noi_dung_lichsu1)
+
+        var khung_phai = document.querySelector(".khung_ben_phai")
+        var khung_trai = document.querySelector(".khung_ben_trai")
+        var toi_chothanhvien = document.getElementById("thanhvien")
+        hien_benphai(toi_chothanhvien,khung_trai)
+        hien_bentrai(toi_chothanhvien,khung_phai)
+        
+        function hien_bentrai(x,y){
+            let targetVisible = false;
+            window.addEventListener("scroll",() => {
+                const targetPosition = x.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (targetPosition < windowHeight && !targetVisible){
+                    y.style.opacity = 1;
+                    y.style.animation = "luotbentrai 1s ease",
+                    targetVisible = true;
+                }
+                
+            })
+        }
+        function hien_benphai(x,y){
+            let targetVisible = false;
+            window.addEventListener("scroll",() => {
+                const targetPosition = x.getBoundingClientRect().top;
+                const windowHeight = window.innerHeight;
+
+                if (targetPosition < windowHeight && !targetVisible){
+                    y.style.opacity = 1;
+                    y.style.animation = "luotbenphai 1s ease",
+                    targetVisible = true;
+                }
+                
+            })
+        }
+    </script>
 </body>
 </html>
